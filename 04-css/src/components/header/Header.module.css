@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    transition: 2s ease-in;
+}
+
+.header:hover{
+    font-size: 35px;
+}
+
+.btn{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px;
+    background-color: rgb(126, 126, 153);
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+}

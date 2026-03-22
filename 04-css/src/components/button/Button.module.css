@@ -1,0 +1,15 @@
+.btn{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    font-size: bold;
+}
+
+.btn:active{
+    background-color: blue;
+}
