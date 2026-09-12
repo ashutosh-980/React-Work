@@ -1,0 +1,35 @@
+body::-webkit-scrollbar{
+  display: none;
+}
+
+#container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#innerContainer{
+  border: 2px solid rgb(144, 103, 103);
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#innerContainer input{
+  padding: 8px;
+  border: 2px solid rgba(7, 120, 232, 0.755);
+  border-radius: 14px;
+  font-size: 12px;
+}
+
+#innerContainer p{
+color : white;
+}
+
