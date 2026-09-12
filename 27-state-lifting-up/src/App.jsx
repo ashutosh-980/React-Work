@@ -10,7 +10,6 @@ const App = () => {
   const [name, setName] = useState("");
   return (
     <div id="container">
-      {/* // <Card name="Alice" age={24} /> */}
       <Card title="Card-1" name={name} setName={setName} />
       <Card title="Card-2" name={name} setName={setName} />
       <p style={{color: "white"}}>Inside the Parent Component :- {name} </p>
